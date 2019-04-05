@@ -3,8 +3,12 @@ def line(deli)
   if deli.length == 0
       puts "The line is currently empty."
   else
+     new_array = []
      list = ""
       deli.each_with_index do |name, index| 
+        list = list << index 
+        new_array << name 
+        list = new_array.join(". ")
         list << "#{index+1}. #{name} "
      end 
      puts "The line is currently: #{list}"
