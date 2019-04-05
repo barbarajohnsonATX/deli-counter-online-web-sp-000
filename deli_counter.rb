@@ -10,9 +10,11 @@ def line(deli)
   end 
 
 def take_a_number(deli, name)
-  puts "Welcome, #{name}. You are number #{index+1} in line."
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
 end 
 
-def now_serving
+def now_serving(deli)
+  puts "Currently service #{deli.first}."
+  deli.unshift
   
 end 
