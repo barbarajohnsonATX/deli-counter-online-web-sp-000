@@ -8,10 +8,10 @@ def line(deli)
       deli.each_with_index do |name, index| 
         number = index + 1 
    
-        list << "#{number.to_s}. #{name} "
+        list << " #{number.to_s}. #{name}"
  
      end 
-     puts "The line is currently: #{list}"
+     puts "The line is currently:#{list}"
   end 
 end 
 
