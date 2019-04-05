@@ -6,8 +6,10 @@ def line(deli)
      new_array = []
      list = ""
       deli.each_with_index do |name, index| 
-        list = list << index 
-        new_array << name 
+        number = index + 1 
+        
+        list << number.to_s  
+        list << name 
         list = new_array.join(". ")
         list << "#{index+1}. #{name} "
      end 
