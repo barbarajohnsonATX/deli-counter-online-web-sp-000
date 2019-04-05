@@ -8,3 +8,7 @@ def line(deli)
       puts "#{index+1}. #{name}"
     end 
   end 
+
+def take_a_number(deli, name)
+  
+end 
