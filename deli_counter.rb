@@ -17,6 +17,6 @@ def take_a_number(deli, name)
 end 
 
 def now_serving(deli)
-  puts "Currently service #{deli[0]}."
+  puts "Currently serving #{deli[0]}."
   deli.shift
 end 
