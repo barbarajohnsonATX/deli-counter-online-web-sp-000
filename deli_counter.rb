@@ -5,6 +5,6 @@ def line(deli)
   else
     puts "The line is currently:"  
     deli.each_with_index do |name, index| 
-      puts "#{index+1}.chomp #{name.chomp}"
+      puts "#{index+1}. #{name}"
     end 
   end 
