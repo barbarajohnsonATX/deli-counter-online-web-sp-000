@@ -9,7 +9,7 @@ def line(deli)
         number = index + 1 
    
         list << "#{number.to_s}. #{name} "
- "
+ 
      end 
      puts "The line is currently: #{list}"
   end 
