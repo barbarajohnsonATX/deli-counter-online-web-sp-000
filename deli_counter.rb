@@ -16,5 +16,4 @@ end
 def now_serving(deli)
   puts "Currently service #{deli.first}."
   deli.unshift
-  
 end 
