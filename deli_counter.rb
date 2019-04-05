@@ -6,6 +6,7 @@ def line(deli)
       print "The line is currently:"  
       deli.each_with_index do |name, index| 
       print "#{index}. #{name}"
+      $stdout.flush
     end 
   end 
 end 
